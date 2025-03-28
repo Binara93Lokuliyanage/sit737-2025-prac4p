@@ -1,0 +1,4 @@
+{"level":"info","message":"Request: POST /add - Body: {\"num1\":10,\"num2\":5}","service":"calculator-microservice"}
+{"level":"info","message":"Addition result: 15","service":"calculator-microservice"}
+{"level":"info","message":"Request: POST /add - Body: {\"num1\":\"A\",\"num2\":5}","service":"calculator-microservice"}
+{"level":"error","message":"Addition Error: {\"error\":\"Error!. num1 must be a number.\"}","service":"calculator-microservice"}
